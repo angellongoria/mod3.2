@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url("backgroundgreen.png")repeat fixed top right;
+}
+#container{
+		width: 800px;
+		margin: 0 auto;
+	background-color:antiquewhite
+	}
+.left{
+	width:380px;
+	height:200px;
+	background-color:gold;
+	border-radius: 20px;
+	float: left;
+	margin: 0px 10px 10px 15px;
+	padding: 30px 30px 30px 25px;
+	border: solid 3px rgba(247,247,247,1.00);
+	
+	
+}
+.right{
+	width:380px;
+	height:200px;
+	background-color:gold;
+	border-radius: 20px;
+	float:left;
+	margin: 0px 0px 10px 0px;
+	padding: 30px 30px 30px 25px;
+	border: solid 3px rgba(247,247,247,1.00);
+}
+footer{
+	background-color:gold
+		clear: both;
+}
+header > h1{
+	text-align: center;
+	color:black;
+}
