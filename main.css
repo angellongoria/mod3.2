@@ -9,35 +9,67 @@ body{
 #container{
 		width: 800px;
 		margin: 0 auto;
-	background-color:antiquewhite
+	background-color:transparent
 	}
 .left{
-	width:380px;
-	height:200px;
+	width:245px;
+	height:290px;
 	background-color:gold;
 	border-radius: 20px;
 	float: left;
-	margin: 0px 10px 10px 15px;
+	margin: 10px 10px 10px 15px;
 	padding: 30px 30px 30px 25px;
 	border: solid 3px rgba(247,247,247,1.00);
+	box-shadow: 10px 10px 3px black
 	
 	
 }
 .right{
-	width:380px;
-	height:200px;
+	width:500px;
+	height:290px;
 	background-color:gold;
 	border-radius: 20px;
 	float:left;
-	margin: 0px 0px 10px 0px;
-	padding: 30px 30px 30px 25px;
+	margin: 10px 0px 10px 0px;
+	padding: 70px 95px 75px 80px;
 	border: solid 3px rgba(247,247,247,1.00);
+	box-shadow: 10px 10px 3px black
 }
+	
 footer{
-	background-color:gold
-		clear: both;
+	background-color:gold;
+	
+clear: both;
 }
 header > h1{
 	text-align: center;
-	color:black;
+	color:antiquewhite;
+		font-size:7em;
+	text-shadow: 
+		black 12px 24px 20px;
 }
+.right a:link{
+	color:antiquewhite;
+	font-size:8em;
+	text-decoration: none;
+}
+.right a:hover{
+	color: forestgreen;
+	font-size:8em;
+	text-shadow: 
+		black 12px 24px 20px;
+	
+}
+footer a:link{
+	color:antiquewhite;
+	text-decoration: none;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
